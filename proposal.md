@@ -43,8 +43,8 @@ It displays off-campus housing locations sorted to match the wants of the users.
 close to a certain area they could select that area and the program would display locations nearest to that area. The program
 also displays locations based on a variety of properties such as price, room sizes, etc.  
 3. Input: Describe the data that is needed to solve your problem. Include an example format of the input data.  
-Location inputs. These would be properties about locations that are being displayed through our program such as number of bedrooms,
-size, price, etc. As well as the user would input preferences in order to change how the data is sorted and displayed to them.
+Housing data. These would be properties about various locations such as number of bedrooms, bathrooms,
+size, price, etc. The user would input preferences in order to change how the data is sorted and displayed to them.
 
 4. User Interface: Describe a user interface for your program.  Use text menus or a simple graphic user interface.  
 See Figure 1  
@@ -55,12 +55,11 @@ Red-Black Trees, House Nodes, UI Display, Main class to run program
 
 
 Name each interface or class and briefly describe its function or purpose.  
-Red-Black Tree Interface: This would serve as the intergace for the trees that we would make to sort the locations  
-Red-Black Tree: Sorts the locations based on the property of the locations that the user selected  
-House Nodes: Store the information of the locations as well as when they are sorted would update the children of the nodes  
+Red-Black Tree Interface: This would serve as the interface to implement for sorted red-black trees  
+Red-Black Tree: The locations sorted based on one (or more) property of the locations 
+House Nodes: Store the information of a location and represents the location in a tree  
 UI: Would display the UI and take in input from the user  
-Main: Take input from user and call to tree method to sort based on input and then send the tree to be displayed in UI.
-Would also calculate the distance from user click to locations.
+Main: Running the calculations/making decisions. Take input from UI, manipulate red-black trees based on preferences, and decide which tree to display in UI. Would also calculate the distance from user click to locations and include this as a user preference as well.
 
 ## Edit and Submit this file and any figures referenced by this document.
 
